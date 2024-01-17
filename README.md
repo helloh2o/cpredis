@@ -7,4 +7,4 @@ redis-port, redis-shake 都没法拷贝我的线上数据（redis6+）到Codis�
 
 # 缺点
 需要停机，所以适合量不是特别大的数据迁移
-数据类型只支持了，ZSET
+数据类型只支持了，string,list,hash,zset 因为我们只用到了这些，有其他需求的可以完善一下
